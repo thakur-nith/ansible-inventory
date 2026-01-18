@@ -4,5 +4,10 @@
 [web109]
 192.168.1.109
 
-[Win]
+[win]
 192.168.1.110
+[win:vars]
+ansible_connection=winrm
+ansible_winrm_transport=basic
+#ansible_user=Administrator
+#ansible_password=123
